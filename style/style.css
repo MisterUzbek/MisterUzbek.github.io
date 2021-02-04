@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    list-style: none;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+header .header_top{
+    padding: 18px 0;
+    width: 100%;
+}
+
+
+header .header_top nav .nav-item .active{
+    color: #007d2f !important;
+    font-size: 20px;
+}
+
+header .header_top nav .nav-item .nav-link{
+    font-size: 12px ;
+    font-weight:500;
+    font-family:'Montserrat', sans-serif; 
+    text-transform: uppercase;
+}
+
+section{
+    background-color: #007d2f;
+  
+}
+
+section .designer h2{
+    margin: 100px 0 25px 0;
+    color: #171717;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+section .designer p{
+    margin-bottom: 80px;
+    line-height:27px ;
+    color:#fefefe ;
+    font-size:17px;
+    font-weight: 400;
+    font-family: sans-serif ;
+}
+
+
+main .item_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+main .item_img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+main .item_img .item_hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+background: rgba(0, 255, 13, 0.5);
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: scale(0);
+transition: 500ms;
+
+}
+
+main .item_img .item_hover .fa{
+    color: white;
+    font-size: 50px;
+   
+}
+main .item_img:hover .item_hover{
+    transform: scale(1);
+}
+
+main .item_img .item_hover .fa:hover{
+    background: black;
+}
+
+.row .col-lg-4 ul li{
+    
+    display: block;
+  
+}
+footer .footer .right  ul li a{
+  color: #989898;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+
+footer{
+  background: #141414;
+  padding: 90px 90px;
+   
+}
+footer .container .row .footer_left h3{
+    color: #fff;
+    
+}
+footer .container .row .footer_left p{
+    color: #989898;
+}
+
+
+
+footer .container .row .footer_center a{
+    color: #989898;
+    text-decoration: none;
+}
+
+.carousel_btn{
+    width: 100%;
+    height: 100px;
+    background-color: #007d2f;
+    position: relative;
+}
+
+.carousel_btn a .fa{
+    display: block;
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    color: red;
+}
