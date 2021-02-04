@@ -1,0 +1,36 @@
+.project{
+    background-color: #f6f6f6;
+}
+.project .light_break{
+    max-width: 450px;
+    margin: auto;
+}
+.project .light_break h2{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Montserrat' sans-serif;
+    margin-bottom: 22px;
+}
+.project .light_break{
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 25px;
+}
+.project .light_break .client p{
+    margin-bottom: 10px;
+}
+.project .light_break .client p span{
+    color: #171717;
+    font-weight: 700 !important;
+    margin-right: 10px;
+}
+.project .light_break .client p a{
+    color: #787878;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 4px;
+}
